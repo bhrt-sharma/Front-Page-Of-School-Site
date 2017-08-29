@@ -1,0 +1,191 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+a,u{
+    text-decoration: none;
+}	
+a{
+    color: inherit;
+}
+a:hover{background-color:blue;
+			color:white;
+			text-decoration:none;
+			font-weight:bold;}
+	  div {
+			position:absolute;
+			width:px;
+			top:40px;
+			
+			}
+#army
+{
+    font-size: 28;
+    top: 8;
+    left: 100;
+}
+
+#sec
+{   
+    background-color: #ff7bc2;
+    color: white;
+    font-family: fantasy;
+    top: 15px;
+    left: 750px;
+    
+}
+
+#container
+{  
+    border:  50px solid #43c9d4;
+    width: 1250px;
+    top: 400px;
+    left: 0px;
+}
+#adm
+{  
+    border:  1px solid white;
+    width: 600px;
+    top: 500px;
+    left: 0px;
+    position: absolute;
+}
+
+
+ span {                      <!--selected text-->
+			front-weight:bold;
+			color:aqua;
+	       }
+#news
+{
+    top: 570px;
+    left: 90px;
+}
+#notice
+{
+    top: 570px;
+    left: 580px;
+}
+#tender
+{
+    top: 570px;
+    left: 1000px;
+    
+}
+#outer
+{
+    width: 1350px;
+    overflow: hidden;
+}
+
+#inner
+{
+    position:relative;
+    width:6750;
+    animation-name:bhrt;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+#inner img
+{
+    float:left;
+}
+@keyframes bhrt
+{
+    0%
+    {
+        left:0px;
+    }
+    16%
+    {
+        left:0px; 
+    }
+    20%
+    {
+        left: -1350px;
+    }
+    36%
+    {
+        left: -1350px;
+    }
+    40%
+    {
+        left: -2700px;
+    }
+    56%
+    {
+        left: -2700px;
+    }
+    60%
+    {
+        left: -4050px
+    }
+    76%
+    {
+        left: -4050px;
+    }
+    80%
+    {
+        left: 0px;
+    }
+    96%
+    {
+        left: 0px;
+    }
+    100%
+    {
+        left: 0px;
+    }
+    
+    
+}
+#menu
+{
+    position:absolute;
+    top: 0 px;
+    left:300px;
+}
+
+#menu ul
+{
+    list-style: none;
+}
+#menu ul  li
+{
+    background-color:greenyellow;
+    border:solid black;
+    width: 130px;
+    height:35px;
+    text-align:center;
+    line-height: 35px;
+    float: left;
+    position: relative;
+    border-radius: 8px;
+}
+
+#menu ul li a
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+#menu ul li a:hover
+{
+    background-color: green;
+    border-radius: 8px;
+}
+
+#menu ul ul
+{
+    position: absolute;
+    display: none;
+}
+#menu ul li:hover > ul
+{
+    display: block;
+}
+
+
+
+
